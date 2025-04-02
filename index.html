@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Sections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            text-align: center;
+        }
+        .section {
+            width: 22%;
+            background: aqua;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin: 10px 0;
+            color:red;
+        }
+        p{
+            color: green;
+        }
+       
+    </style>
+</head>
+<body>
+   
+    
+    <div class="container">
+        <div class="section">
+            <img src="./home.jpg" alt="Home Logo">
+            <h2>Home</h2>
+            <p>Welcome to Home</p>
+        </div>
+        <div class="section">
+            <img src="./about.png" alt="About Logo">
+            <h2>About</h2>
+            <p>Learn more about us.</p>
+        </div>
+        <div class="section">
+            <img src="./gallery.jpg" alt="Gallery Logo">
+            <h2>Gallery</h2>
+            <p>Check My our gallery</p>
+        </div>
+        <div class="section">
+            <img src="./contact.jpg" alt="Contact Logo">
+            <h2>Contact</h2>
+            <p>Get My Details</p>
+        </div>
+    </div>
+  
+</body>
+</html>
